@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ZenTomato</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+          Arial, sans-serif;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #f7f7f4;
+        color: #202124;
+      }
+
+      main {
+        width: min(520px, calc(100% - 40px));
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: 34px;
+      }
+
+      p {
+        color: #6b7280;
+        line-height: 1.6;
+      }
+
+      nav {
+        display: grid;
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      a {
+        display: block;
+        padding: 14px 16px;
+        border: 1px solid #d7d4cc;
+        border-radius: 8px;
+        color: #0f766e;
+        text-decoration: none;
+        background: rgba(255, 255, 255, 0.54);
+      }
+
+      a:hover {
+        border-color: #0f766e;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #151513;
+          color: #ece7dc;
+        }
+
+        p {
+          color: #a8a29e;
+        }
+
+        a {
+          border-color: #3f3a32;
+          color: #5eead4;
+          background: rgba(255, 255, 255, 0.04);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>ZenTomato</h1>
+      <p>Privacy policy and support information for ZenTomato.</p>
+      <nav aria-label="Privacy policy links">
+        <a href="privacy.html">隐私政策（简体中文）</a>
+        <a href="privacy-en.html">Privacy Policy (English)</a>
+      </nav>
+    </main>
+  </body>
+</html>
